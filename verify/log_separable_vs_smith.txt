@@ -1,0 +1,14 @@
+﻿=============================================================
+ 3x3 median network verification (vs TRUE 9-point median)
+=============================================================
+
+ trials = 300000
+ A) separable (current edge_detect) : mismatches = 126441  (42.15%)
+ B) rtl/median_filter_3x3 (Smith)   : mismatches = 126441  (42.15%)
+ C) textbook Smith (max/med/min)    : mismatches = 0  (0.00%)
+
+ => C is EXACT, use it
+ => A is NOT exact (should be replaced)
+ => B is NOT exact (do not use as-is)
+=============================================================
+D:\������Ŀ¼\����˼������\verify\tb_separable_vs_smith.v:120: $finish called at 0 (1ns)

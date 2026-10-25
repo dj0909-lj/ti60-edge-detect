@@ -1,0 +1,50 @@
+# ---- 编辑器 / 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---- 文档历史备份（保留正文即可）----
+*.bak
+*.bak[0-9]*
+*.v[0-9]*.bak
+*_old.*
+*_backup.*
+
+# ---- Efinity / 编译产物（体积大且可重建）----
+outflow/
+work_syn/
+work_pnr/
+*.bit
+*.hex
+*.bin
+*.vdb
+*.clstdb
+*.clstmap
+*.gplace
+*.place
+*.route
+*.netlist
+*.lpf
+*.cnst
+*.rs
+*.pb
+*.troutingtraces
+*.pt_routing_hints
+RUNPNR_*/
+_bak_pre_patch_*/
+
+# ---- 仿真临时产物 ----
+*.vcd
+*.wlf
+*.log.tmp
+transcript
+work/
+sim_build/
+xsim.dir/
+
+# 本地备份（不上传）
+_backup_deleted_md/
